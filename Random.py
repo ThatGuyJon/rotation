@@ -15,7 +15,7 @@ while True:
     sigs = []
     avas = []
 
-    for i in range(0, len(images)):
+    for i in xrange(0, len(images)):
         if images[i].startswith("ava"):
             avas.append(images[i])
         else:
